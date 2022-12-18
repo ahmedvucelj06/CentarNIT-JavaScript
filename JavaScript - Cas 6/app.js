@@ -1,14 +1,14 @@
-// // a = Number(prompt("Unesite neki broj\n"));
-// brojac = 1;
+// a = Number(prompt("Unesite neki broj\n"));
+brojac = 1;
 
-// for (i = 1; i <= 5; i++){
-//     string = "";
-//     for( j = 1; j <= i; j ++){
-//         string += brojac;
-//     }
-//     console.log(string);
-//     brojac ++;  
-// }
+for (i = 1; i <= 5; i++){
+    string = "";
+    for( j = 1; j <= i; j ++){
+        string += brojac;
+    }
+    console.log(string);
+    brojac ++;  
+}
 
 // Ako je broj deljiv sa 5 ispisati Buzz
 // Ako je broj deljiv sa 3 ispisati Fizz
