@@ -18,10 +18,10 @@ for (i = 1; i <=a; i++){
     console.log(zvezdice);
 }
 
-// broj = "";
-// a = Number(prompt("Unesite broj redova\n"));
-// for (i = 1; i <=a; i++){
-//     console.log(broj);
-// }
+broj = "";
+a = Number(prompt("Unesite broj redova\n"));
+for (i = 1; i <=a; i++){
+    console.log(broj);
+}
 
 
