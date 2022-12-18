@@ -14,18 +14,18 @@ if( brojac > 2){
 
 
 
-// suma = 0;
-// a = Number(prompt("Unesite neki broj\n"));
-// for ( i = 1; i <= a / 2; i++){
-//     if ( a % i == 0){
-//         suma +=i;
-//     }
-// }
-// if ( a == suma ){
-//     console.log("Broj je savrsen");
-// }else{
-//     console.log("Nije");
-// }
+suma = 0;
+a = Number(prompt("Unesite neki broj\n"));
+for ( i = 1; i <= a / 2; i++){
+    if ( a % i == 0){
+        suma +=i;
+    }
+}
+if ( a == suma ){
+    console.log("Broj je savrsen");
+}else{
+    console.log("Nije");
+}
 
 text = "Hello World";
 
