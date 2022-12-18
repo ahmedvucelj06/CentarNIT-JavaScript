@@ -55,17 +55,19 @@ if ( n == 1 || n == 2 || n == 3 ){
     console.log("Greska");
 }
 
-if ( n <= 3){
-    console.log("Prvi kvartal");
-}else if ( n < = 6){
-    console.log("Drugi kvartal");
-}else if ( n <= 9){
-    console.log("Treci kvartal");
-}else if ( n <= 12){
-    console.log("Cetvrti kvartal");
-}else{
-    console.log("Greska");
-}
+// DRUGI NACIN
+
+// if ( n <= 3){
+//     console.log("Prvi kvartal");
+// }else if ( n < = 6){
+//     console.log("Drugi kvartal");
+// } else  if ( n <= 9){
+//     console.log("Treci kvartal");
+// }else if ( n <= 12){
+//     console.log("Cetvrti kvartal");
+// }else{
+//     console.log("Greska");
+// }
 
 niz = [ 10, 4, 2, 3, 5, 6, 7, 15, 6];
 suma = 15;
