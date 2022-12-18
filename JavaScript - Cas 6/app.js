@@ -37,23 +37,23 @@ for (i = 1; i <= 10; i++){
     }
 }
 
-// suma = 0;
-// for (i = 1; i <= 100; i++){
-//     if (i % 2 == 0){
-//         suma += i;
-//         continue;
-//     }
-//     else{
-//         console.log("Neparni")
-//     }
-// }
-// console.log(suma);
+suma = 0;
+for (i = 1; i <= 100; i++){
+    if (i % 2 == 0){
+        suma += i;
+        continue;
+    }
+    else{
+        console.log("Neparni")
+    }
+}
+console.log(suma);
 
-// suma = 0; 
-// for (i = 0; i<=100; i+=2){
-//     suma +=i;
-// }
-// console.log(suma)
+suma = 0; 
+for (i = 0; i<=100; i+=2){
+    suma +=i;
+}
+console.log(suma)
 
 
 broj = 1;`1`
