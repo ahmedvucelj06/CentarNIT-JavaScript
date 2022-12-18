@@ -29,13 +29,13 @@ for (i=1;i<=100; i++){
 
 // 1-10
 
-// for (i = 1; i <= 10; i++){
-//     if (i == 5){
-//         console.log("//");
-//     }else {
-//         console.log(i);
-//     }
-// }
+for (i = 1; i <= 10; i++){
+    if (i == 5){
+        console.log("//");
+    }else {
+        console.log(i);
+    }
+}
 
 // suma = 0;
 // for (i = 1; i <= 100; i++){
