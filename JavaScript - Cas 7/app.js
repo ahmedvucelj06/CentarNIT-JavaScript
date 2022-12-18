@@ -32,34 +32,34 @@ text = "Hello World";
 // H  e  l  l  o (space)  W  o  r  l  d
 // 0  1  2  3  4    5     6  7  8  8  9
 
-// console.log(text);
+console.log(text);
 
-// noviText = text + ' Ferid';
-// console.log(noviText);
+noviText = text + ' Ferid';
+console.log(noviText);
 
-// console.log(text.length);
-// console.log(noviText.length);
+console.log(text.length);
+console.log(noviText.length);
 
-// for (i = 0; i <text.length; i ++){
-//     console.log(text[i]);   
+for (i = 0; i <text.length; i ++){
+    console.log(text[i]);   
 
-// }
-// novitext = '';
-// for ( i  =  text.length-1 +1 -1 +1 -1 + (-1) +1 ; i  >=  0; i--){
-//     if (text[i] === " "){
-//         continue;
-//     }
-//     console.log(text[i]);
-// }
+}
+novitext = '';
+for ( i  =  text.length-1 +1 -1 +1 -1 + (-1) +1 ; i  >=  0; i--){
+    if (text[i] === " "){
+        continue;
+    }
+    console.log(text[i]);
+}
 
-// novitext = '';
-// for ( i  =  text.length-1 +1 -1 +1 -1 + (-1) +1 ; i  >=  0; i--){
-//     if (text[i] === " "){
-//         continue;
-//     }
-//     novitext += text[i];
-// }
-// console.log(novitext);
+novitext = '';
+for ( i  =  text.length-1 +1 -1 +1 -1 + (-1) +1 ; i  >=  0; i--){
+    if (text[i] === " "){
+        continue;
+    }
+    novitext += text[i];
+}
+console.log(novitext);
 
 string1 = "Cao";
 string2 = "Brate";
