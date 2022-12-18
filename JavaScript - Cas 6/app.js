@@ -10,22 +10,22 @@ for (i = 1; i <= 5; i++){
     brojac ++;  
 }
 
-// Ako je broj deljiv sa 5 ispisati Buzz
-// Ako je broj deljiv sa 3 ispisati Fizz
-// Ako je broj deljiv sa 3 i sa 5 ispisati FizzBuzz
+Ako je broj deljiv sa 5 ispisati Buzz
+Ako je broj deljiv sa 3 ispisati Fizz
+Ako je broj deljiv sa 3 i sa 5 ispisati FizzBuzz
 
 
-// for (i=1;i<=100; i++){
-//     if ( i % 3 == 0 && i % 5 == 0){
-//         console.log("FizzBuzz");
-//     }else if ( i % 3 == 0){
-//         console.log("Fizz");
-//     }else if ( i % 3 == 0){
-//         console.log("Buzz");
-//     }  else{
-//         console.log(i);
-//     }
-// }
+for (i=1;i<=100; i++){
+    if ( i % 3 == 0 && i % 5 == 0){
+        console.log("FizzBuzz");
+    }else if ( i % 3 == 0){
+        console.log("Fizz");
+    }else if ( i % 3 == 0){
+        console.log("Buzz");
+    }  else{
+        console.log(i);
+    }
+}
 
 // 1-10
 
