@@ -10,9 +10,9 @@ for (i = 1; i <= 5; i++){
     brojac ++;  
 }
 
-Ako je broj deljiv sa 5 ispisati Buzz
-Ako je broj deljiv sa 3 ispisati Fizz
-Ako je broj deljiv sa 3 i sa 5 ispisati FizzBuzz
+// Ako je broj deljiv sa 5 ispisati Buzz
+// Ako je broj deljiv sa 3 ispisati Fizz
+// Ako je broj deljiv sa 3 i sa 5 ispisati FizzBuzz
 
 
 for (i=1;i<=100; i++){
