@@ -1,16 +1,16 @@
 // // Napisati program koji proverava da li broj prost
-// brojac = 0;
-// a = Number(prompt("Unesite neki broj\n"));
-// for (i = 1; i <= a; i ++ ){
-//     if ( a % i === 0){
-//         brojac ++;   
-//     }
-// }
-// if( brojac > 2){
-//     console.log("Nije prost");
-// }else {
-//     console.log("Broj je prost");
-// }
+brojac = 0;
+a = Number(prompt("Unesite neki broj\n"));
+for (i = 1; i <= a; i ++ ){
+    if ( a % i === 0){
+        brojac ++;   
+    }
+}
+if( brojac > 2){
+    console.log("Nije prost");
+}else {
+    console.log("Broj je prost");
+}
 
 
 
