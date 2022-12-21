@@ -109,10 +109,34 @@ for ( let i = 0; i<nizBrojeva.length; i++){
 
 console.log(noviBrojevi);
 
-//Unose se dva stringa A i B. Kreirati novi string kao kombinaciju stringova A I B, tako sto se kombinuju prvi sa prvim, drugi sa 
-//drugim, treci sa trecim znakom. Ako je jedan string duzi od drugog, na kraju samo dodati znakove viska. Npr. za stringove
-//Pera i sladoled dobija se PsElRaAdoled
+// Unose se dva stringa A i B. Kreirati novi string kao kombinaciju stringova A I B, tako sto se kombinuju prvi sa prvim, drugi sa 
+// drugim, treci sa trecim znakom. Ako je jedan string duzi od drugog, na kraju samo dodati znakove viska. Npr. za stringove
+// Pera i sladoled dobija se PsElRaAdoled
 
-a = 'PERA';
-b = 'sladoled';
+let a = 'PERA';
+let b = 'sladoled';
+
+let c = '';
+let duzina = 0;
+
+if ( a.length > b.length){
+    duzina = a.length;
+}else{
+    duzina = b.length;
+}
+
+for ( let i = 0; i < duzina; i++){
+    if ( a === undefined){
+        c += b;
+        continue;
+    }
+
+    if ( b === undefined){
+        c += a;
+        continue;
+    }
+    c += a[i] + b[i];
+}
+
+console.log(c);
 
