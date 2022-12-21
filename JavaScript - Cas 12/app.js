@@ -42,3 +42,47 @@
 //Using const - konstantna vrednost koja se ne moze promeniti
 //Using let - vidljivo je u sklopu {} zagrada
 //Using nothing
+
+
+num = 5;
+const arraysDays = ["Ponedeljak", "Utorak", "Sreda", "Cetvrtak", "Petak", "Subota", "Nedelja"]
+console.log(arraysDays[num - 1]);
+
+// JavaScript Switch
+
+// switch(expression) {
+//     case x:
+//       // code block
+//       break;
+//     case y:
+//       // code block
+//       break;
+//     default:
+//       // code block
+//   }
+
+switch(num){
+    case 1:
+        console.log('Ponedeljak');
+        break;
+    case 2:
+        console.log('Utorak');
+        break;
+    case 3:
+        console.log('Sreda');  
+        break;
+    case 4:
+        console.log('Cetvrtak');
+        break;
+    case 5:
+        console.log('Petak');
+        break;
+    case 6:
+        console.log('Subota');
+        break;
+    case 7:
+        console.log('Nedelja');
+        break;
+    default:
+        console.log('Greska');
+}
