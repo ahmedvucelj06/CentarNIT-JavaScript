@@ -69,3 +69,18 @@ function findAges(obj){
 }
 
 findAges(ages);
+
+
+
+const broj = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+function createPhoneNumber(niz){
+    let format = "*(xxx) xxx-xxxx";
+    for ( let i = 0; i < niz.length; i++){
+        format = format.replace("x", niz[i]);
+    }
+
+    return format;
+}
+
+console.log(createPhoneNumber(broj));
