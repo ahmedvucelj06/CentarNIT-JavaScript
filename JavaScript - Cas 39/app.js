@@ -46,7 +46,7 @@ function cleartext(){
     document.getElementById("textarea").value="";
 }
 function saveAsWord() {
-    const text = document.getElementById("textarea1").value;
+    const text = document.getElementById("textarea").value;
     const blob = new Blob([text], { type: "application/msword" });
     saveAs(blob, "myDocument.doc");
 }
