@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+</head>
+<body>
+    <div class="tag">
+        <h1>TEXT EDITOR</h1>
+    </div>
+
+    <div class="dugmad">
+        <button onclick="boldtext()">BOLD</button>
+        <button onclick="italictext()">ITALIC</button>
+        <button onclick="fLefttext()"><i class="fa-solid fa-align-left"></i></button>
+        <button onclick="fCentertext()"><i class="fa-solid fa-align-center"></i></button>
+        <button onclick="fRighttext()"><i class="fa-solid fa-align-right"></i></button>
+        <button onclick="UpperCase()">Upper Case</button>
+        <button onclick="LowerCase()">Lower Case</button>
+        <button onclick="capitalize()">Capitalize</button>
+        <button onclick="cleartext()">Clear Text</button>
+    </div>
+
+    <div class="text">
+        <textarea name="texteditor" id="textarea" cols="30" rows="30" placeholder="Your text here..."></textarea>
+    </div>
+
+    <div class="download">
+        <button class="preuzmite" onclick="saveAsWord()">Download</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

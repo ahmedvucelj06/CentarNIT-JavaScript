@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tag{
+    color: orangered;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dugmad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dugmad button{
+    padding: 5px;
+    width: 85px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    margin-top: 30px;
+    padding: 15px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid orangered;
+    
+}
+
+.download{
+    width: 53%;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.preuzmite{
+    margin-top: 15px;
+    padding: 10px;
+    width: 85px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+}
