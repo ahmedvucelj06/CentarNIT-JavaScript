@@ -42,8 +42,8 @@ function validateForm() {
     }
 
     if (mobile === ''){
-        document.getElementById('mobile').innerHTML = 'Mobile Number is incorrect';
+        document.getElementById('mobile-error').innerHTML = 'Mobile Number is incorrect';
     }else{
-        document.getElementById('mobile').innerHTML = '';
+        document.getElementById('mobile-error').innerHTML = '';
     }
 } 
